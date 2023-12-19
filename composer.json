@@ -1,0 +1,28 @@
+{
+    "name": "slvler/theme-cli",
+    "license": "MIT",
+    "description": "Thema Cli",
+    "type": "package",
+    "authors": [
+        {
+            "name": "slvler",
+            "email": "slvler@proton.me"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Slvler\\ThemeCli\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Slvler\\ThemeCli\\ThemeCliServiceProvider"
+            ]
+        },
+        "aliases": {
+            "Theme": "Slvler\\ThemeCli\\Facades\\ThemeCli"
+        }
+    }
+}
