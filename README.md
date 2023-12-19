@@ -1,1 +1,1 @@
-# theme-editor
+# theme-cli
